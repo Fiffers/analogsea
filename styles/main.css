@@ -1,0 +1,86 @@
+body {
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+		background-color: #3399ff
+}
+
+div.registerbox {
+	background-color: white;
+	border-radius: 5px;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px 40px 0px 40px;
+}
+
+.logoimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	height: 35px;
+}
+
+h1.signup {
+	text-align: center;
+	padding-top: 35px;
+	color: #666666
+}
+
+input.inputbox {
+	width: 286px;
+	height: 21px;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+input.submit {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	width: 320px;
+	height: 55px;
+	border-radius: 5px;
+	color: white;
+	background-color: #66cc66;
+	border: 2px solid #66cc66;
+}
+
+input.submit:hover {
+	background-color: #009933;
+	border: 2px solid #009933;
+}
+
+label {
+	display: block;
+	margin: 15px 0px 15px 0px;
+}
+
+h5.forgot {
+	text-align: center;
+	margin-top: 6px;
+	font-size: 14px;
+	padding-bottom: 35px;
+}
+
+h5.forgot > a {
+	color: #999999;
+}
+
+h5.forgot > a:hover {
+	color: #666666;
+}
+
+div.login {
+	text-align: center;
+	margin-top: -10px;
+}
+
+div.login > h3, .login {
+	color: white;
+}
+
+.login:hover {
+	color: #cccccc
+}
